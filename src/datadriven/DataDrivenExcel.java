@@ -21,7 +21,7 @@ public class DataDrivenExcel {
 		
 	File Excel=new File(filepath);
 	
-	FileInputStream fs=new FileInputStream(Excel);
+	  FileInputStream fs=new FileInputStream(Excel);
 	
 	XSSFWorkbook wb=new XSSFWorkbook(fs);
 	XSSFSheet sheet=wb.getSheet(sheetname);
